@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 
 export default class CreateUser extends Component {
+  componentDidMount() {
+    console.log("create user mounted");
+  }
   render() {
-    console.log("hello");
     return (
       <div>
-        <p>You are on the Create Exercises List Component</p>
+        <p>You are on the Create User Component</p>
       </div>
     );
   }

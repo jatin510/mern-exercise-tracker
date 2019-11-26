@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
+  componentDidMount() {
+    console.log("navigation bar mounted");
+  }
   render() {
     return (
       <div className="navbar navbar-dark bg-dark navbar-expand-lg">
