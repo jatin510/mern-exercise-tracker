@@ -9,6 +9,7 @@ router.route("/").get((req, res) => {
 });
 
 router.route("/add").get((req, res) => {
+  console.log("inside add user");
   const username = req.query.username;
   const newUser = new User({ username: username });
 
